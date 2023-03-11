@@ -1,0 +1,21 @@
+body{
+    background-image:url(/images/stanfordmaincampus1.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    color:aqua;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 140px;
+}
+@media only screen and (max-width:751px){
+    h1{
+        font-size: 35px;
+        text-align: center;
+        padding-top: 70px;
+    }
+}
